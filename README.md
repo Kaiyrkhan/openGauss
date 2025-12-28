@@ -1,2 +1,2 @@
-# openGauss
-HCIA-openGauss
+# HCIA-openGauss
+
