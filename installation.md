@@ -23,7 +23,7 @@ dnf install -y wget nano vim
 ```shell
 groupadd dbgroup
 useradd -g dbgroup omm
-passwd omm
+passwd Super@123
 ```
 
 ```shell
