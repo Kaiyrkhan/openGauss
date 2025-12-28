@@ -1,4 +1,4 @@
-## installation on a Single Node
+## installation openGauss Server on a Single Node
 
 ```shell
 $ cat /etc/os-release
