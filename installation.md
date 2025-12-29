@@ -47,7 +47,7 @@ gs_ctl query -D ~/gaussdb/data/single_node
 gsql -d postgres -p 5432
 ```
 
-> omm — Database Super Admin  
+> omm — Database SuperAdmin User 
 ```shell
 CREATE USER omm WITH PASSWORD 'Super@123';
 ALTER USER omm SYSADMIN;
@@ -55,7 +55,7 @@ ALTER USER omm SYSADMIN;
 \du
 ```
 
-> admin — Database Admin  
+> admin — Database Admin User  
 ```shell
 CREATE USER admin WITH PASSWORD 'Admin@123';
 ALTER USER admin CREATEROLE CREATEDB;
